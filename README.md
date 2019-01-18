@@ -1,6 +1,6 @@
 # ce05 TBD
 
-This class exercise is designed to ...
+This class exercise is designed to get you aquainted Javadoc comments and interfaces.
 
 ## Prerequisite Knowledge
 
@@ -25,22 +25,59 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce05` directory that was just created and look around. There should be
-multiple Java files somewhere in the directory structure. 
+   multiple Java files somewhere in the directory structure. For each `.java` file, fill out an
+   entry in a table similar to the one provided below. Incldue the path of each file relative to 
+   the `cs1302-ce05` directory, the fully qualified name of the class or interface contained in each
+   ile, and a note indicating the type of thing declared in that file. 
 
-   * Q1
-   * Q2
+   | Path                     | FQN        | Class or Interface? |
+   |--------------------------|------------|---------------------|
+   | `some/path/to/file.java` | `some.fqn` | Class               |
 
-1. From the `cs1302-ce05` directory, ...
-
-1. Generate API documentation for the exercise using the following command:
+1. Make sure you are in the `cs1302-ce02`. Modify the command presented below to generate the API 
+   documentation website for the code contained in this exercise and place it in the `doc`
+   subdirectory. 
 
    ```
-   $ javadoc ADD OPTIONS HERE
+   $ javadoc -d doc some/path/to/file.java some/path/to/otherfile.java
    ```
 
-1. Use `ln` to create a link to `doc` inside of your `public_html` directory.
+   If all the `.java` files are in the same directory, then you can use `*.java` to have the shell
+   expand that argument into separate arguments for each `.java` file in the command entered at
+   the shell prompt. 
 
-1. View the generated API documentation in your web browser.
+   Be sure to verify that files were created in the `doc` directory before continuing. 
+
+1. Verify that you have a `public_html` directory in your home directory. What commands did you
+   type to check this? If the `~/public_html` directory does not exist, then you should create
+   it. The purpose of this directory on Nike is to support student websites, which will be
+   illustrated in the following steps. 
+
+   **NOTE:** You are fully responsible for anything that you host through your Nike website.
+
+1. Use `ln`, as described below, to create a symbolic link (shortcut) in your `public_html` 
+   directory to the `doc` subdirectory containing the API documentation website that created in 
+   a previous step. The exact command is presented below--t assumes you are currently in the 
+   `cs1302-ce05` directory. 
+
+   ```
+   $ ln -s ~/public_html/cs1302-ce05-doc doc
+   ```
+   
+   In this scenario, the symbolic link is called `cs1302-ce05-doc`. You can see it if you
+   change into your `public_html` directory and perform an `ls -l`. What are two things in
+   the output of `ls -l` that let you know `cs1302-ce05-doc` is a symbolic link?
+
+1. Navigate to the following URL in your web browser, replacing `user` with your Nike
+   username:
+
+   ```
+   http://cs.uga.edu/~user/cs1302-ce05-doc/
+   ```
+
+   Congratulations! If you followed the steps correctly, then you should see actual API
+   documentation website that you generated. Does this website look similar to any other
+   websites that you may have visited? If so, what? You can be general in your response.
 
 **CHECKPOINT**
     
