@@ -60,7 +60,7 @@ command depends on your present working directory), then please note that contex
    $ ln -s $(pwd)/doc ~/public_html/cs1302-ce05-doc
    ```
    
-   In the command above, the abolute path to link's target (in this case, `doc`) must be provided. 
+   In the command above, the abolute path to our link's target (in this case, `doc`) must be provided. 
    Since our intended target is in the current directory, we know that its absolute path
    is the same as the absolute path of the current directory followed by `/` followed by
    the name of our target. We could manually figure out the desired path with the help of `pwd` 
