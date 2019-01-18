@@ -32,6 +32,16 @@ multiple Java files somewhere in the directory structure.
 
 1. From the `cs1302-ce05` directory, ...
 
+1. Generate API documentation for the exercise using the following command:
+
+   ```
+   $ javadoc ADD OPTIONS HERE
+   ```
+
+1. Use `ln` to create a link to `doc` inside of your `public_html` directory.
+
+1. View the generated API documentation in your web browser.
+
 **CHECKPOINT**
     
 ### SUBSECTION TITLE
