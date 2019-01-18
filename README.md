@@ -39,12 +39,8 @@ command depends on your present working directory), then please note that contex
    subdirectory. 
 
    ```
-   $ javadoc -d doc some/path/to/file.java some/path/to/otherfile.java
+   $ javadoc -d doc -sourcepath src -subpackages .
    ```
-
-   If all the `.java` files are in the same directory, then you can use `*.java` to have the shell
-   expand that argument into separate arguments for each `.java` file in the command entered at
-   the shell prompt. 
 
    Be sure to verify that files were generated and placed in the `doc` directory before continuing. 
 
