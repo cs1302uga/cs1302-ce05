@@ -57,7 +57,7 @@ command depends on your present working directory), then please note that contex
 
 1. Use `ln`, as described below, to create a symbolic link (shortcut) in your `public_html` 
    directory to the `doc` subdirectory containing the API documentation website that created in 
-   a previous step. The exact command is presented below--t assumes you are currently in the 
+   a previous step. The exact command is presented below--it assumes you are currently in the 
    `cs1302-ce05` directory. 
 
    ```
