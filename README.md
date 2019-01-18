@@ -57,7 +57,7 @@ command depends on your present working directory), then please note that contex
    `cs1302-ce05` directory. 
 
    ```
-   $ ln -s ~/public_html/cs1302-ce05-doc doc
+   $ ln -s doc ~/public_html/cs1302-ce05-doc
    ```
    
    In this scenario, the symbolic link is called `cs1302-ce05-doc`. You can see it if you
