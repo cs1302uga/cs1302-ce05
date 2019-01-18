@@ -57,8 +57,14 @@ command depends on your present working directory), then please note that contex
    `cs1302-ce05` directory. 
 
    ```
-   $ ln -s doc ~/public_html/cs1302-ce05-doc
+   $ ln -s $(pwd)/doc ~/public_html/cs1302-ce05-doc
    ```
+   
+   In the command above, the abolute path to `doc` must be provided. Since it's in the
+   current directory, we know that the absolute path for `doc` is the same as the
+   absolute path of the current directory followed by `/doc`. We could manually figure
+   out the desired path using `pwd` or we can use `$(pwd)`, as seen above, to fill in 
+   the output of `pwd` instead. 
    
    In this scenario, the symbolic link is called `cs1302-ce05-doc`. You can see it if you
    change into your `public_html` directory and perform an `ls -l`. What are two things in
