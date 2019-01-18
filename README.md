@@ -46,7 +46,7 @@ command depends on your present working directory), then please note that contex
    expand that argument into separate arguments for each `.java` file in the command entered at
    the shell prompt. 
 
-   Be sure to verify that files were created in the `doc` directory before continuing. 
+   Be sure to verify that files were generated and placed in the `doc` directory before continuing. 
 
 1. Verify that you have a `public_html` directory in your home directory. What commands did you
    type to check this? If the `~/public_html` directory does not exist, then you should create
