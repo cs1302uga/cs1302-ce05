@@ -26,9 +26,9 @@ command depends on your present working directory), then please note that contex
 
 1. Change into the `cs1302-ce05` directory that was just created and look around. There should be
    multiple Java files somewhere in the directory structure. For each `.java` file, fill out an
-   entry in a table similar to the one provided below. Incldue the path of each file relative to 
+   entry in a table similar to the one provided below. Include the path of each file relative to 
    the `cs1302-ce05` directory, the fully qualified name of the class or interface contained in each
-   ile, and a note indicating the type of thing declared in that file. 
+   file, and a note indicating the type of thing declared in that file. 
 
    | Path                     | FQN        | Class or Interface? |
    |--------------------------|------------|---------------------|
