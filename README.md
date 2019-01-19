@@ -39,7 +39,7 @@ command depends on your present working directory), then please note that contex
    subdirectory. 
 
    ```
-   $ javadoc -d doc -sourcepath src -subpackages .
+   $ javadoc -d doc -sourcepath src -subpackages cs1302
    ```
 
    Be sure to verify that files were generated and placed in the `doc` directory before continuing.
