@@ -34,8 +34,8 @@ command depends on your present working directory), then please note that contex
    |--------------------------|------------|---------------------|
    | `some/path/to/file.java` | `some.fqn` | Class               |
 
-1. Make sure you are in the `cs1302-ce02`. Use the command presented below to generate the API 
-   documentation website for the code contained in this exercise and place it in the `doc`
+1. Make sure you are in the `cs1302-ce05` directory. Use the command presented below to generate 
+   the API documentation website for the code contained in this exercise and place it in the `doc`
    subdirectory. 
 
    ```
