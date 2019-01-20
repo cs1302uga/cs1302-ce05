@@ -25,25 +25,15 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce05` directory that was just created and look around. There should be
-   multiple Java files somewhere in the directory structure. For each `.java` file, fill out an
-   entry in a table similar to the one provided below. Include the path of each file relative to 
-   the `cs1302-ce05` directory, the fully qualified name of the class or interface contained in each
-   file, and a note indicating the type of thing declared in that file. 
+   a Java file somewhere in the directory structure. For the `.java` file, write the path relative
+   to the `cs1302-ce05` directory and the fully qualified name of the class.
 
-   | Path                     | FQN        | Class or Interface? |
-   |--------------------------|------------|---------------------|
-   | `some/path/to/file.java` | `some.fqn` | Class               |
-
-1. Make sure you are in the `cs1302-ce05` directory. Use the command presented below to generate 
+1. Make sure you are still in the `cs1302-ce05` directory. Write the command to generate 
    the API documentation website for the code contained in this exercise and place it in the `doc`
-   subdirectory. 
+   subdirectory. Be sure to write the full command in your notes.
 
-   ```
-   $ javadoc -d doc -sourcepath src -subpackages cs1302
-   ```
-
-   Be sure to verify that files were generated and placed in the `doc` directory before continuing.
-   What do the `-d` and `-sourcepath` options mean?
+1. Verify that files were generated and placed in the `doc` directory before continuing.
+   What do the `-d`, `-sourcepath`, and `-subpackages` options mean?
 
 1. Verify that you have a `public_html` directory in your home directory. What commands did you
    type to check this? If the `~/public_html` directory does not exist, then you should create
@@ -52,22 +42,11 @@ command depends on your present working directory), then please note that contex
 
    **NOTE:** You are fully responsible for anything that you host through your Nike website.
 
-1. Use `ln`, as described below, to create a symbolic link (shortcut) in your `public_html` 
-   directory to the `doc` subdirectory containing the API documentation website that created in 
-   a previous step. The exact command is presented below--it assumes you are currently in the 
-   `cs1302-ce05` directory. 
-
-   ```
-   $ ln -s $(pwd)/doc ~/public_html/cs1302-ce05-doc
-   ```
+1. Use `ln` to create a symbolic link (shortcut) named `cs1302-ce05-doc` in your `public_html` 
+   directory. The symbolic link should link to the `doc` subdirectory containing the API documentation 
+   website created in a previous step. Write the exact command used in your notes. 
    
-   In the command above, the abolute path to our link's target (in this case, `doc`) must be provided. 
-   Since our intended target is in the current directory, we know that its absolute path
-   is the same as the absolute path of the current directory followed by `/` followed by
-   the name of our target. We could manually figure out the desired path with the help of `pwd` 
-   or we can use `$(pwd)`, as seen above, to fill in the output of `pwd` instead. 
-   
-   In this scenario, the symbolic link is called `cs1302-ce05-doc`. You can see it if you
+1. The symbolic link created in the last step is called `cs1302-ce05-doc`. You can see it if you
    change into your `public_html` directory and perform an `ls -l`. What are two things in
    the output of `ls -l` that let you know `cs1302-ce05-doc` is a symbolic link?
 
@@ -78,29 +57,17 @@ command depends on your present working directory), then please note that contex
    http://cs.uga.edu/~user/cs1302-ce05-doc/
    ```
 
-   Congratulations! If you followed the steps correctly, then you should see actual API
-   documentation website that you generated. Does this website look similar to any other
-   websites that you may have visited? If so, what? You can be general in your response.
+   You should see the API documentation website that you generated. Does this website look 
+   similar to any other websites that you may have visited? If so, what? You can be general 
+   in your response.
 
 **CHECKPOINT**
     
-### SUBSECTION TITLE
+### Writing API Documentation
 
-1. TODO
-
-**CHECKPOINT**
-    
-### SUBSECTION TITLE
-
-1. TODO
+1. 
 
 **CHECKPOINT**
-    
-### SUBSECTION TITLE
-
-1. TODO
-
-**CHECKPOINT** 
     
 <hr/>
 
