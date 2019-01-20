@@ -65,7 +65,20 @@ command depends on your present working directory), then please note that contex
     
 ### Writing API Documentation
 
-1. 
+1. From the API documentation website, click on one of the links to the `House` class. How many 
+   methods currently contain Javadoc comments?
+   
+1. In `House.java`, add Javadoc comments for each undocumented method. In each of your comments, 
+   include a sentence that describes the method, along with tags that document, as needed, the 
+   parameters, return type, and propagated exceptions. Use the @code tag where appropriate in 
+   your description.
+   
+1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
+   `setPrice` method to throw an exception when `price` is negative.
+   
+1. Update the Javadoc comments with the appropriate `@throws` tags if you haven't done so already.
+
+1. Run the `javadoc` tool to update your API documentation website on `nike`.
 
 **CHECKPOINT**
     
