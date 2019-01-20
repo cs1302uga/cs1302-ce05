@@ -77,6 +77,8 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
+### Throwing Exceptions
+
 1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
    `setPrice` method to throw an exception when `price` is negative.
    
