@@ -70,9 +70,13 @@ command depends on your present working directory), then please note that contex
    
 1. In `House.java`, add Javadoc comments for each undocumented method. In each of your comments, 
    include a sentence that describes the method, along with tags that document, as needed, the 
-   parameters, return type, and propagated exceptions. Use the @code tag where appropriate in 
-   your description.
-   
+   parameters and return type. Leave out any propagated exceptions for now. 
+   Use the @code tag where appropriate in your description.
+
+1. Run the `javadoc` tool to update your API documentation website on `nike`.
+
+**CHECKPOINT**
+
 1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
    `setPrice` method to throw an exception when `price` is negative.
    
