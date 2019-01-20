@@ -1,11 +1,11 @@
-# ce05 TBD
+# ce05 API Documentation with Javadoc
 
 This class exercise is designed to get you aquainted Javadoc comments and interfaces.
 
 ## Prerequisite Knowledge
 
-* TODO
-* TODO
+* A basic understanding of Javadoc tags and generating API documentation.
+* https://github.com/cs1302uga/cs1302-tutorials/blob/master/javadoc/javadoc.md
 
 ## Questions
 
