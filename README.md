@@ -63,11 +63,18 @@ command depends on your present working directory), then please note that contex
 1. From the API documentation website, click on one of the links to the `House` class. How many 
    methods currently contain Javadoc comments?
    
-1. In `House.java`, add Javadoc comments for each undocumented method. In each of your comments, 
-   include a sentence that describes the method, along with tags that document, as needed, the 
-   parameters and return type. Leave out any propagated exceptions for now. 
-   Use the @code tag where appropriate in your description.
-
+1. In `House.java`, some of the methods already have multiline, non-Javadoc comments.  Transform the 
+   comments into Javadoc using the appropriate syntax. In each Javadoc comment, include one or more 
+   properly punctuated sentences that describe the method. You may base these sentences off the existing
+   comments. Be sure to also include tags that document, as needed, the parameters and return type. 
+   Leave out any propagated exceptions for now. 
+   
+   Use the `@code` tag where appropriate in your description.
+   
+1. In `House.java`, the class itself also has multiline, non-Javadoc comments.  Transform the comments 
+   into Javadoc using the appropriate syntax. Try to preserve the multi-paragraph nature of the existing
+   comment.
+   
 1. Run the `javadoc` tool to update your API documentation website on `nike`.
 
 **CHECKPOINT**
@@ -75,9 +82,9 @@ command depends on your present working directory), then please note that contex
 ### Throwing Exceptions
 
 1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
-   `setPrice` method to throw an exception when `price` is negative.
+   `setPrice` method to throw an exception when the `price` parameter is negative.
    
-1. Update the Javadoc comments with the appropriate `@throws` tags if you haven't done so already.
+1. Update your Javadoc comments with the appropriate `@throws` tags.
 
 1. Run the `javadoc` tool to update your API documentation website on `nike`.
 
