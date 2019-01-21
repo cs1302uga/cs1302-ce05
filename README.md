@@ -35,16 +35,11 @@ command depends on your present working directory), then please note that contex
 1. Verify that files were generated and placed in the `doc` directory before continuing.
    What do the `-d`, `-sourcepath`, and `-subpackages` options mean?
 
-1. Verify that you have a `public_html` directory in your home directory. What commands did you
-   type to check this? If the `~/public_html` directory does not exist, then you should create
-   it. The purpose of this directory on Nike is to support student websites, which will be
-   illustrated in the following steps. 
-
-   **NOTE:** You are fully responsible for anything that you host through your Nike website.
-
 1. Use `ln` to create a symbolic link (shortcut) named `cs1302-ce05-doc` in your `public_html` 
    directory. The symbolic link should link to the `doc` subdirectory containing the API documentation 
    website created in a previous step. Write the exact command used in your notes. 
+   
+   **NOTE:** You are fully responsible for anything that you host through your Nike website.
    
 1. The symbolic link created in the last step is called `cs1302-ce05-doc`. You can see it if you
    change into your `public_html` directory and perform an `ls -l`. What are two things in
