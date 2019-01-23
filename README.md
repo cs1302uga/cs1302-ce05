@@ -1,6 +1,6 @@
 # ce05 API Documentation with Javadoc
 
-This class exercise is designed to get you aquainted Javadoc comments and interfaces.
+This class exercise is designed to get you aquainted with Javadoc comments.
 
 ## Prerequisite Knowledge
 
