@@ -42,8 +42,9 @@ command depends on your present working directory), then please note that contex
 
 1. Make sure you are still in the `cs1302-ce05` directory. Write the command to generate 
    the API documentation website for the code contained in this exercise and place it in the `doc`
-   subdirectory. Be sure to write the full command in your notes.
-   What do the `-d`, `-sourcepath`, and `-subpackages` options mean?
+   subdirectory. Be sure to write the full command in your notes, specifying the
+   `-d`, `-sourcepath`, and `-subpackages` options.
+   What do each of these options mean?
 
 1. Verify that files were generated and placed in the `doc` directory before continuing.
 
