@@ -48,9 +48,14 @@ command depends on your present working directory), then please note that contex
 
 1. Verify that files were generated and placed in the `doc` directory before continuing.
 
-1. Use `ln` to create a symbolic link (shortcut) named `cs1302-ce05-doc` in your `public_html` 
+1. Make sure you are still in the `cs1302-ce05` directory.
+   Use `ln` to create a symbolic link (shortcut) named `cs1302-ce05-doc` in your `public_html` 
    directory. The symbolic link should link to the `doc` subdirectory containing the API documentation 
-   website created in a previous step. Write the exact command used in your notes. 
+   website created in a previous step. Write the exact command used in your notes.
+   
+   **NOTE:** Remember, if you use `$(pwd)` as described in the reading, then that expression
+   will expand to the absolute path of your present working directory. That is, the string
+   that it expands to will differ depending on where you currently are. 
    
    **NOTE:** You are fully responsible for anything that you host through your Nike website.
    
@@ -60,10 +65,12 @@ command depends on your present working directory), then please note that contex
    
    **NOTE:** If you made a typo while setting up the symbolic link in the previous step, then 
    you may need to delete the link itself in the `~/public_html` directory before trying 
-   the recreate the link.
+   the recreate the link. If bash tab completes the link name to include a trailing
+   `/` (forward slash), then you should remove that `/` when refering to the link with
+   the `rm` command.
 
 1. Navigate to the following URL in your web browser, replacing `user` with your Nike
-   username:
+   username (be sure to remember the `~` tilde):
 
    ```
    http://cs.uga.edu/~user/cs1302-ce05-doc/
@@ -87,17 +94,20 @@ command depends on your present working directory), then please note that contex
    comments. Be sure to also include tags that document, as needed, the parameters and return type. 
    Leave out any propagated exceptions for now. 
    
-   Use the `@code` tag where appropriate in your description.
+   Use the `@code` tag where appropriate. The instructor of TA will look for this. A good rule of thumb
+   is that nouns that refer to code identifiers (e.g., variable names, class names, method names, etc.)
+   should be differentiated using an `@code` tag. If done correctly, readers of the documentation
+   website will be able to better identify when a general word is being used versus an
+   identifier. 
    
 1. In `House.java`, the class itself also has multiline, non-Javadoc comments.  Transform the comments 
    into Javadoc using the appropriate syntax. Try to preserve the multi-paragraph nature of the existing
-   comment.
+   comment. Use the `@code` tag where appropriate.
    
-1. Run the `javadoc` tool to update your API documentation website on `nike`.
+1. Run the `javadoc` tool to update your API documentation website on `nike`. You should not need
+   to recreate the symbolic link in `~/public_html`, assuming it still exists.
 
-1. View the hosted API documentation website. In your notes, list the name of each method that 
-   appears to contain commented documentation. How many such methods currently contain Javadoc 
-   comments are there? 
+1. View the updated API documentation website.  
    
 1. Repeat the previous three steps until you are confident that the API documentation website
    displays the documentation corresponding to your comments. Once done, write down the direct 
@@ -123,7 +133,7 @@ command depends on your present working directory), then please note that contex
 
 1. Run the `javadoc` tool to update your API documentation website on `nike`. Find the constructor and
    `setPrice` method in the in the "Construtor Detail" and "Method Detail" sections of the `Hourse`
-   classes documentation webpage, respectively. How does their documentationn differ with respect
+   classes documentation webpage, respectively. How does their documentation _differ_ with respect
    to the exception? Why?
 
 **CHECKPOINT**
