@@ -70,7 +70,7 @@ command depends on your present working directory), then please note that contex
    the `rm` command.
 
 1. Navigate to the following URL in your web browser, replacing `user` with your Nike
-   username (be sure to remember the `~` tilde):
+   username (be sure to remember the `~`):
 
    ```
    http://cs.uga.edu/~user/cs1302-ce05-doc/
