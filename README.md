@@ -32,7 +32,7 @@ command depends on your present working directory), then please note that contex
    multiple Java files contained within the directory structure. There should be
    a Java file somewhere in the directory structure. To see a listing of all of the 
    files under the `src` subdirectory, use the `find` command as follows:
-   
+    
    ```
    $ find src
    ```
