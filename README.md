@@ -43,9 +43,9 @@ command depends on your present working directory), then please note that contex
 1. Make sure you are still in the `cs1302-ce05` directory. Write the command to generate 
    the API documentation website for the code contained in this exercise and place it in the `doc`
    subdirectory. Be sure to write the full command in your notes.
+   What do the `-d`, `-sourcepath`, and `-subpackages` options mean?
 
 1. Verify that files were generated and placed in the `doc` directory before continuing.
-   What do the `-d`, `-sourcepath`, and `-subpackages` options mean?
 
 1. Use `ln` to create a symbolic link (shortcut) named `cs1302-ce05-doc` in your `public_html` 
    directory. The symbolic link should link to the `doc` subdirectory containing the API documentation 
