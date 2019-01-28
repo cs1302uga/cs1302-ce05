@@ -25,19 +25,14 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-ce05` directory that was just created and look around. There should be
-   a Java file somewhere in the directory structure. For the `.java` file, write the path relative
-   to the `cs1302-ce05` directory and the fully qualified name of the class.
-   
-   1. Change into the `cs1302-ce05` directory that was just created and look around. There should be
-   multiple Java files contained within the directory structure. There should be
    a Java file somewhere in the directory structure. To see a listing of all of the 
    files under the `src` subdirectory, use the `find` command as follows:
-    
+   
    ```
    $ find src
    ```
    
-   For each Java file that you fine, fill out a table similar to the following:
+   For each Java file that you find, fill out a table similar to the following:
    
    | Name of the Java file | Fully Qualified Name (FQN) |
    |-----------------------|----------------------------|
