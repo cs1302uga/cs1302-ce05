@@ -27,6 +27,23 @@ command depends on your present working directory), then please note that contex
 1. Change into the `cs1302-ce05` directory that was just created and look around. There should be
    a Java file somewhere in the directory structure. For the `.java` file, write the path relative
    to the `cs1302-ce05` directory and the fully qualified name of the class.
+   
+   1. Change into the `cs1302-ce05` directory that was just created and look around. There should be
+   multiple Java files contained within the directory structure. There should be
+   a Java file somewhere in the directory structure. To see a listing of all of the 
+   files under the `src` subdirectory, use the `find` command as follows:
+   
+   ```
+   $ find src
+   ```
+   
+   For each Java file that you fine, fill out a table similar to the following:
+   
+   | Name of the Java file | Fully Qualified Name (FQN) |
+   |-----------------------|----------------------------|
+   |-----------------------|----------------------------|
+   |-----------------------|----------------------------|
+   |-----------------------|----------------------------|
 
 1. Make sure you are still in the `cs1302-ce05` directory. Write the command to generate 
    the API documentation website for the code contained in this exercise and place it in the `doc`
@@ -44,6 +61,10 @@ command depends on your present working directory), then please note that contex
 1. The symbolic link created in the last step is called `cs1302-ce05-doc`. You can see it if you
    change into your `public_html` directory and perform an `ls -l`. What are two things in
    the output of `ls -l` that let you know `cs1302-ce05-doc` is a symbolic link?
+   
+   **NOTE:** If you made a typo while setting up the symbolic link in the previous step, then 
+   you may need to delete the link itself in the `~/public_html` directory before trying 
+   the recreate the link.
 
 1. Navigate to the following URL in your web browser, replacing `user` with your Nike
    username:
@@ -52,16 +73,17 @@ command depends on your present working directory), then please note that contex
    http://cs.uga.edu/~user/cs1302-ce05-doc/
    ```
 
-   You should see the API documentation website that you generated. Does this website look 
-   similar to any other websites that you may have visited? If so, what? You can be general 
-   in your response.
+   You should see the API documentation website that you generated. Other than the website
+   you generated while doing the reading, does this website look similar to any other 
+   websites that you may have visited? If so, what? You can be general in your response. 
 
 **CHECKPOINT**
     
 ### Writing API Documentation
 
-1. From the API documentation website, click on one of the links to the `House` class. How many 
-   methods currently contain Javadoc comments?
+1. From the API documentation website, click on one of the links to the `House` class. In your notes, list
+   the name of each method that appears to contain commented documentation. How many 
+   such methods currently contain Javadoc comments are there?
    
 1. In `House.java`, some of the methods already have multiline, non-Javadoc comments.  Transform the 
    comments into Javadoc using the appropriate syntax. In each Javadoc comment, include one or more 
@@ -77,16 +99,35 @@ command depends on your present working directory), then please note that contex
    
 1. Run the `javadoc` tool to update your API documentation website on `nike`.
 
+1. View the hosted API documentation website. In your notes, list the name of each method that 
+   appears to contain commented documentation. How many such methods currently contain Javadoc 
+   comments are there? 
+   
+1. Repeat the previous three steps until you are confident that the API documentation website
+   displays the documentation corresponding to your comments. Once done, write down the direct 
+   URL to the API documentation webpage for the `House` class.
+   
 **CHECKPOINT**
 
 ### Throwing Exceptions
 
 1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
-   `setPrice` method to throw an exception when the `price` parameter is negative.
+   `setPrice` method to throw an 
+   [`IllegalArgumentException`](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html) 
+   with an appropriate associated message when the `price` parameter is negative.
    
-1. Update your Javadoc comments with the appropriate `@throws` tags.
+   * In both places, create and explicitly throw the exception using the `throw` keyword. 
+   * In the constructor, do not list the exception in the signature using `throws`.
+   * In the `setPrice` method, do list the exception in the signature using `throws`.
+   
+1. Update your Javadoc comments so that users of the constructor are aware that the constructor may
+   throw an exception under certain circumstances. At a minimum, appropriate use of the `@throws` tag
+   is needed, regardless of whether the exception is listed using `throws`.
 
-1. Run the `javadoc` tool to update your API documentation website on `nike`.
+1. Run the `javadoc` tool to update your API documentation website on `nike`. Find the constructor and
+   `setPrice` method in the in the "Construtor Detail" and "Method Detail" sections of the `Hourse`
+   classes documentation webpage, respectively. How does their documentationn differ with respect
+   to the exception? Why?
 
 **CHECKPOINT**
     
