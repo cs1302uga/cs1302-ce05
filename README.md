@@ -111,7 +111,8 @@ command depends on your present working directory), then please note that contex
    [`IllegalArgumentException`](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html) 
    with an appropriate associated message when the `price` parameter is negative.
    
-   * In both places, create and explicitly throw the exception using the `throw` keyword. 
+   * In both places, create and explicitly throw the exception using the `throw` keyword inside of
+     an appropriate `if` statement.
    * In the constructor, do not list the exception in the signature using `throws`.
    * In the `setPrice` method, do list the exception in the signature using `throws`.
    
