@@ -132,7 +132,7 @@ command depends on your present working directory), then please note that contex
    is needed, regardless of whether the exception is listed using `throws`.
 
 1. Run the `javadoc` tool to update your API documentation website on `nike`. Find the constructor and
-   `setPrice` method in the in the "Construtor Detail" and "Method Detail" sections of the `Hourse`
+   `setPrice` method in the "Construtor Detail" and "Method Detail" sections of the `House`
    classes documentation webpage, respectively. How does their documentation _differ_ with respect
    to the exception? Why?
 
