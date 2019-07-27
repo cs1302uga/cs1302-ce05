@@ -7,6 +7,10 @@ This class exercise is designed to get you aquainted with Javadoc comments.
 * A basic understanding of Javadoc tags and generating API documentation.
 * https://github.com/cs1302uga/cs1302-tutorials/blob/master/javadoc/javadoc.md
 
+## Course-Specific Learning Outcomes
+
+* **LO3.a:** Create and update source code that adheres to established style guidelines.
+
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
