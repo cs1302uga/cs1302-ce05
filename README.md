@@ -9,7 +9,10 @@ This class exercise is designed to get you aquainted with Javadoc comments.
 
 ## Course-Specific Learning Outcomes
 
-* **LO3.a:** Create and update source code that adheres to established style guidelines.
+* **LO2.b:** (Partial) Define, throw, and propagate exceptions appropriately in a software solution.
+* **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
+set of requirements.
+* **LO3.c:** Generate user-facing API documentation for a software solution.
 
 ## Questions
 
