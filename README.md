@@ -39,7 +39,7 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
    
-   For each Java file that you find, fill out a table similar to the following:
+   For each Java file that you find, fill out a row in a table in your notes similar to the following:
    
    | Name of the Java file | Fully Qualified Name (FQN) |
    |-----------------------|----------------------------|
@@ -48,10 +48,10 @@ command depends on your present working directory), then please note that contex
    |-----------------------|----------------------------|
 
 1. Make sure you are still in the `cs1302-ce05` directory. Write the command to generate 
-   the API documentation website for the code contained in this exercise and place it in the `doc`
-   subdirectory. Be sure to write the full command in your notes, specifying the
-   `-d`, `-sourcepath`, and `-subpackages` options.
-   What do each of these options mean?
+   the API documentation website for the code contained in this exercise and place it in the 
+   preexisting `doc` subdirectory. Be sure to write the full command in your notes, specifying 
+   the `-d`, `-sourcepath`, and `-subpackages` options.
+   In your notes, briefly explain what each of these options mean.
 
 1. Verify that files were generated and placed in the `doc` directory before continuing.
 
@@ -73,7 +73,7 @@ command depends on your present working directory), then please note that contex
    **NOTE:** If you made a typo while setting up the symbolic link in the previous step, then 
    you may need to delete the link itself in the `~/public_html` directory before trying 
    the recreate the link. If bash tab completes the link name to include a trailing
-   `/` (forward slash), then you should remove that `/` when refering to the link with
+   `/` (forward slash), then you should remove that `/` when referring to the link with
    the `rm` command.
 
 1. Navigate to the following URL in your web browser, replacing `user` with your Nike
@@ -93,7 +93,7 @@ command depends on your present working directory), then please note that contex
 
 1. From the API documentation website, click on one of the links to the `House` class. In your notes, list
    the name of each method that appears to contain commented documentation. How many 
-   such methods currently contain Javadoc comments are there?
+   such methods currently containing Javadoc comments are there?
    
 1. In `House.java`, some of the methods already have multiline, non-Javadoc comments.  Transform the 
    comments into Javadoc using the appropriate syntax. In each Javadoc comment, include one or more 
@@ -101,7 +101,7 @@ command depends on your present working directory), then please note that contex
    comments. Be sure to also include tags that document, as needed, the parameters and return type. 
    Leave out any propagated exceptions for now. 
    
-   Use the `@code` tag where appropriate. The instructor of TA will look for this. A good rule of thumb
+   Use the `@code` tag where appropriate. The instructor or TA will look for this. A good rule of thumb
    is that nouns that refer to code identifiers (e.g., variable names, class names, method names, etc.)
    should be differentiated using an `@code` tag. If done correctly, readers of the documentation
    website will be able to better identify when a general word is being used versus an
@@ -136,12 +136,16 @@ command depends on your present working directory), then please note that contex
    
 1. Update your Javadoc comments so that users of the constructor are aware that the constructor may
    throw an exception under certain circumstances. At a minimum, appropriate use of the `@throws` tag
-   is needed, regardless of whether the exception is listed using `throws`.
+   is needed, regardless of whether the exception is listed using `throws` in the method signature.
 
 1. Run the `javadoc` tool to update your API documentation website on `nike`. Find the constructor and
    `setPrice` method in the "Construtor Detail" and "Method Detail" sections of the `House`
    classes documentation webpage, respectively. How does their documentation _differ_ with respect
    to the exception? Why?
+   
+   **Note:** In general, when a method throws an unchecked exception, we will not list it in the signature
+   of the method. We did it in this exercise for `setPrice` only to see the difference in the documentation
+   webpage.
 
 **CHECKPOINT**
     
