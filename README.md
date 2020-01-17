@@ -1,5 +1,6 @@
 # ce05 API Documentation with Javadoc
 
+<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)-->
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
 
 This class exercise is designed to get you aquainted with Javadoc comments.
@@ -114,7 +115,9 @@ command depends on your present working directory), then please note that contex
    comment. Use the `@code` tag where appropriate.
    
 1. Run the `javadoc` tool to update your API documentation website on `nike`. You should not need
-   to recreate the symbolic link in `~/public_html`, assuming it still exists.
+   to recreate the symbolic link in `~/public_html`, assuming it still exists. This is because the
+   symbolic link is pointing to your `doc` folder. When the `doc` folder is updated, the link automatically
+   points to this new content.
 
 1. View the updated API documentation website.  
    
@@ -129,7 +132,8 @@ command depends on your present working directory), then please note that contex
 1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
    `setPrice` method to throw an 
    [`IllegalArgumentException`](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html) 
-   with an appropriate detail message when the `price` parameter is negative.
+   with an appropriate detail message when the `price` parameter is negative. Is `IllegalArgumentException`
+   a checked or an unchecked exception?
    
    * In both places, create and explicitly throw the exception using the `throw` keyword inside of
      an appropriate `if` statement.
@@ -149,6 +153,10 @@ command depends on your present working directory), then please note that contex
    of the method. We did it in this exercise for `setPrice` only to see the difference in the documentation
    webpage.
 
+1. Run the 1302 `checkstyle` program on `House.java`. If errors are reported, look up the error message in the
+   [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and repeat until no style
+   errors remain.
+   
 **CHECKPOINT**
     
 <hr/>
