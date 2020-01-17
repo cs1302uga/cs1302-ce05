@@ -153,9 +153,9 @@ command depends on your present working directory), then please note that contex
    of the method. We did it in this exercise for `setPrice` only to see the difference in the documentation
    webpage.
 
-1. Run the 1302 `checkstyle` program on `House.java`. If errors are reported, look up the error message in the
-   [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and repeat until no style
-   errors remain.
+1. Run the 1302 `checkstyle` program on `House.java`. If errors are reported, look up each error message 
+   in the [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and repeat until 
+   no style errors remain.
    
 **CHECKPOINT**
     
