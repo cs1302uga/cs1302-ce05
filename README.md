@@ -83,7 +83,7 @@ command depends on your present working directory), then please note that contex
    username (be sure to remember the `~`):
 
    ```
-   http://cs.uga.edu/~user/cs1302-ce05-doc/
+   http://cobweb.cs.uga.edu/~user/cs1302-ce05-doc/
    ```
 
    You should see the API documentation website that you generated. Other than the website
