@@ -1,9 +1,8 @@
 # ce05 API Documentation with Javadoc
 
-<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)-->
-![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 
-This class exercise is designed to get you aquainted with Javadoc comments.
+This class exercise is designed to get you acquainted with Javadoc comments.
 
 ## Prerequisite Knowledge
 
