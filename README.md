@@ -7,8 +7,8 @@ In particular, it walks you through the transformation of non-Javadoc comments
 at the class-level and method-level into Javadoc comments so that the Javadoc 
 program can be used to generate a documentation website. In addition to the 
 generated website, the comments themselves also help programmers who are reading 
-your code. Proper comments save companies and teams real world money by lowering 
-transaction costs associated with interpreting code.
+your code. **Proper comments save companies and teams real world money by lowering 
+transaction costs associated with interpreting code.**
 
 ## Prerequisite Knowledge
 
