@@ -14,6 +14,7 @@ transaction costs associated with interpreting code.**
 
 * A basic understanding of Javadoc tags and generating API documentation.
 * [CCSI 1302 Javadoc Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javadoc/javadoc.md)
+* [CSCI 1302 Style Guide](https://github.com/cs1302uga/cs1302-styleguide)
 
 ## Course-Specific Learning Outcomes
 
