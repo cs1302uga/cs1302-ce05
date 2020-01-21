@@ -7,7 +7,7 @@ This class exercise is designed to get you acquainted with Javadoc comments.
 ## Prerequisite Knowledge
 
 * A basic understanding of Javadoc tags and generating API documentation.
-* https://github.com/cs1302uga/cs1302-tutorials/blob/master/javadoc/javadoc.md
+* [CCSI 1302 Javadoc Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javadoc/javadoc.md)
 
 ## Course-Specific Learning Outcomes
 
