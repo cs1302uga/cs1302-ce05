@@ -2,7 +2,13 @@
 
 ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 
-This class exercise is designed to get you acquainted with Javadoc comments.
+This class exercise is designed to get you acquainted with Javadoc comments. 
+In particular, it walks you through the transformation of non-Javadoc comments 
+at the class-level and method-level into Javadoc comments so that the Javadoc 
+program can be used to generate a documentation website. In addition to the 
+generated website, the comments themselves also help programmers who are reading 
+your code. Proper comments save companies and teams real world money by lowering 
+transaction costs associated with interpreting code.
 
 ## Prerequisite Knowledge
 
@@ -157,7 +163,7 @@ command depends on your present working directory), then please note that contex
    no style errors remain.
    
 **CHECKPOINT**
-    
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
