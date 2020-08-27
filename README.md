@@ -1,6 +1,6 @@
 # ce05 API Documentation with Javadoc
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 This class exercise is designed to get you acquainted with Javadoc comments. 
 In particular, it walks you through the transformation of non-Javadoc comments 
@@ -26,15 +26,17 @@ set of requirements.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce05`:
+### Checkpoint 1 Steps - Getting Started
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce05`:
 
    ```
    $ git clone https://github.com/cs1302uga/cs1302-ce05.git
@@ -73,7 +75,7 @@ command depends on your present working directory), then please note that contex
    will expand to the absolute path of your present working directory. That is, the string
    that it expands to will differ depending on where you currently are. 
    
-   **NOTE:** You are fully responsible for anything that you host through your Nike website.
+   **NOTE:** You are fully responsible for anything that you host through your Odin website.
    
 1. The symbolic link created in the last step is called `cs1302-ce05-doc`. You can see it if you
    change into your `public_html` directory and perform an `ls -l`. What are two things in
@@ -85,20 +87,25 @@ command depends on your present working directory), then please note that contex
    `/` (forward slash), then you should remove that `/` when referring to the link with
    the `rm` command.
 
-1. Navigate to the following URL in your web browser, replacing `user` with your Nike
+1. Navigate to the following URL in your web browser, replacing `user` with your Odin
    username (be sure to remember the `~`):
 
    ```
-   http://cobweb.cs.uga.edu/~user/cs1302-ce05-doc/
+   https://webwork.cs.uga.edu/~user/cs1302-ce05-doc/
    ```
 
    You should see the API documentation website that you generated. Other than the website
    you generated while doing the reading, does this website look similar to any other 
    websites that you may have visited? If so, what? You can be general in your response. 
 
-**CHECKPOINT**
-    
-### Writing API Documentation
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps - Writing API Documentation
 
 1. From the API documentation website, click on one of the links to the `House` class. In your notes, list
    the name of each method that appears to contain commented documentation. How many 
@@ -110,7 +117,7 @@ command depends on your present working directory), then please note that contex
    comments. Be sure to also include tags that document, as needed, the parameters and return type. 
    Leave out any propagated exceptions for now. 
    
-   Use the `@code` tag where appropriate. The instructor or TA will look for this. A good rule of thumb
+   Use the `@code` tag where appropriate. The instructor or TA will look for this. A general rule
    is that nouns that refer to code identifiers (e.g., variable names, class names, method names, etc.)
    should be differentiated using an `@code` tag. If done correctly, readers of the documentation
    website will be able to better identify when a general word is being used versus an
@@ -120,7 +127,7 @@ command depends on your present working directory), then please note that contex
    into Javadoc using the appropriate syntax. Try to preserve the multi-paragraph nature of the existing
    comment. Use the `@code` tag where appropriate.
    
-1. Run the `javadoc` tool to update your API documentation website on `nike`. You should not need
+1. Run the `javadoc` tool to update your API documentation website on Odin. You should not need
    to recreate the symbolic link in `~/public_html`, assuming it still exists. This is because the
    symbolic link is pointing to your `doc` folder. When the `doc` folder is updated, the link automatically
    points to this new content.
@@ -131,13 +138,17 @@ command depends on your present working directory), then please note that contex
    displays the documentation corresponding to your comments. Once done, write down the direct 
    URL to the API documentation webpage for the `House` class.
    
-**CHECKPOINT**
+<hr/>
 
-### Throwing Exceptions
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps - Throwing Exceptions
 
 1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
    `setPrice` method to throw an 
-   [`IllegalArgumentException`](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html) 
+   [`IllegalArgumentException`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/IllegalArgumentException.html) 
    with an appropriate detail message when the `price` parameter is negative. 
    
    * In both places, create and explicitly throw the exception using the `throw` keyword inside of
@@ -151,7 +162,7 @@ command depends on your present working directory), then please note that contex
    throw an exception under certain circumstances. At a minimum, appropriate use of the `@throws` tag
    is needed, regardless of whether the exception is listed using `throws` in the method signature.
 
-1. Run the `javadoc` tool to update your API documentation website on `nike`. Find the constructor and
+1. Run the `javadoc` tool to update your API documentation website on Odin. Find the constructor and
    `setPrice` method in the "Construtor Detail" and "Method Detail" sections of the `House`
    classes documentation webpage, respectively. How does their documentation _differ_ with respect
    to the exception? Why?
@@ -164,7 +175,52 @@ command depends on your present working directory), then please note that contex
    in the [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and repeat until 
    no style errors remain.
    
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce05`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The full link to the website generated in this exercise.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce05-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce05` (e.g., `cd ..` from `cs1302-ce05`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce05 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
