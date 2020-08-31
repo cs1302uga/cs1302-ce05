@@ -98,7 +98,6 @@ command depends on your present working directory), then please note that contex
    you generated while doing the reading, does this website look similar to any other 
    websites that you may have visited? If so, what? You can be general in your response. 
 
-
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
