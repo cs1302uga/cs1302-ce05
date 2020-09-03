@@ -116,7 +116,7 @@ command depends on your present working directory), then please note that contex
    comments. Be sure to also include tags that document, as needed, the parameters and return type. 
    Leave out any propagated exceptions for now. 
    
-   Use the `@code` tag where appropriate. The instructor or TA will look for this. A general rule
+   Use the `@code` tag where appropriate. A general rule
    is that nouns that refer to code identifiers (e.g., variable names, class names, method names, etc.)
    should be differentiated using an `@code` tag. If done correctly, readers of the documentation
    website will be able to better identify when a general word is being used versus an
