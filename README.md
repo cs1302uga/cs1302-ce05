@@ -147,7 +147,7 @@ command depends on your present working directory), then please note that contex
 
 1. To ensure that a `House` object cannot have a negative price, modify the constructor and the
    `setPrice` method to throw an 
-   [`IllegalArgumentException`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/IllegalArgumentException.html) 
+   [`IllegalArgumentException`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/IllegalArgumentException.html) 
    with an appropriate detail message when the `price` parameter is negative. 
    
    * In both places, create and explicitly throw the exception using the `throw` keyword inside of
